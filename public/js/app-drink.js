@@ -4,6 +4,16 @@
   app.controller('DrinkController', function() {
     this.choices = drinks;
   });
+  
+  app.controller("TabController", function(){
+      this.tab = 1;
+      this.setTab = function(setTab){
+          this.tab = setTab;
+      }
+      this.isSet = function(checkTab){
+          return this.tab === checkTab;
+      }
+  })
 
   var drinks = [{
     name: 'Mauby',
