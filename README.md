@@ -8,9 +8,9 @@ Copy interesting sites for practice, access them with a node server.
 
 ## Using:
 <!--* [MongoDB](https://www.npmjs.com/package/mongodb)-->
-* NodeJS
+<!-- [socket.io](https://github.com/socketio/socket.io)-->
+<!-- [grant js](https://github.com/simov/grant)-->
 * Express
 * Angular
+* NodeJS
 * EJS
-<!--* [socket.io](https://github.com/socketio/socket.io)-->
-<!--* [grant js](https://github.com/simov/grant)-->
