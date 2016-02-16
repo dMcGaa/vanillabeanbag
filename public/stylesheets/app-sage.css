@@ -22,11 +22,19 @@ h1{
 
 .footer-info{
     text-align: left;
+    padding-right: 10px;
 }
 
 .nav-links{
     color: rgb(127, 122, 124);
     text-align: center;
+}
+
+.view-banner{
+    text-align: center;
+    background-color: rgb(246, 60, 60);
+    color: rgb(255, 255, 255);
+    padding: 10px;
 }
 
 .view-footer{
@@ -50,7 +58,7 @@ h1{
 }
 
 .project-image{
-    background-color: rgb(127, 122, 124);
+    background-color: rgb(53, 45, 47);
     height: 250px;
 }
 
