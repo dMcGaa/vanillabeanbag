@@ -17,6 +17,10 @@ app.get('/drinks', function(request, response) {
   response.render('pages/drinks')
 });
 
+app.get('/sage', function(request, response) {
+  response.render('pages/sage')
+});
+
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
 });
