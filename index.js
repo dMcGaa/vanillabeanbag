@@ -21,6 +21,10 @@ app.get('/sage', function(request, response) {
   response.render('pages/sage')
 });
 
+app.get('/site-cuda', function(request, response) {
+  response.render('pages/site-cuda')
+});
+
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
 });

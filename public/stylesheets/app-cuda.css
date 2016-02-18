@@ -1,0 +1,66 @@
+@font-face{
+    font-family:'titillium-reg';
+    src: url("/fonts/Titillium-Regular.otf");
+}
+
+* {
+    /*box-sizing: border-box;*/
+    margin: 0 auto;
+}
+
+.clearfix{
+    overflow: auto;
+}
+.link-box{
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(53, 45, 47);
+    width: 160px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.view-panel{
+    text-align: center;
+    border: 0px solid black;
+    clear:both;
+        max-width: 75%;
+}
+
+#cuda-welcome{
+    background-color: #87509C;
+    color: #ffffff;
+}
+
+#cuda-services{
+    background-color: #17c2a4;
+    color: #ffffff;
+}
+
+#cuda-team{
+    background-color: #e7f1f8;
+    color: #3c4761;
+}
+
+#cuda-skills{
+    background-color: #ffffff;
+    color: #3c4761;
+}
+
+#cuda-portfolio{
+    background-color: #ffdd99;
+    color: #393939;
+}
+
+#cuda-testimonials{
+    background-color: #d74680;
+    color: #ffffff;
+}
+
+#cuda-in-touch{
+    background-color: #3c5499;
+    color: #ffffff;
+}
