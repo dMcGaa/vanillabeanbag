@@ -34,6 +34,27 @@ h2{
     border-radius: 5px;
     padding: 10px;
 }
+.list-services{
+    list-style-type: none;
+    display: inline-block;
+    width: 260px;
+    margin-right: 10px;
+    /*outline: 1px dashed black;*/
+}
+.list-services div{
+    font-size: 100%;
+}
+.list-team{
+    list-style-type: none;
+    display: inline-block;
+    width: 260px;
+    margin-right: 10px;
+    /*outline: 1px dashed black;*/
+    padding: 30px;
+}
+.list-team div{
+    font-size: 100%;
+}
 .nav-list:hover{
     background-color:#4d2f5c;
     cursor:pointer;
