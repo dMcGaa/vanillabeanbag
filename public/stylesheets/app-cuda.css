@@ -17,6 +17,9 @@ h1{
 h2{
     font-size: 100%;
 }
+ul{
+    padding: 0px;
+}
 
 .uppercase {
     text-transform: uppercase;
@@ -34,15 +37,21 @@ h2{
     margin-bottom: 60px;
 }
 .link-box{
-    margin: 0 auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
     text-align: center;
-    background-color: rgb(255, 255, 255);
-    color: rgb(53, 45, 47);
-    width: 160px;
+    margin: 0 auto;
+    margin-top: 1.13em;
+    padding-top: 1.13em;
+    padding-bottom: 1.13em;
+    width: 290px;
     border-radius: 5px;
-    padding: 10px;
+    font-size: 1.13em;
+    font-weight: bold;
+    background-color: #add4cd;
+    color: rgb(53, 45, 47);
+}
+.link-box:hover{
+    background-color: #0a5d4e;
+    cursor:pointer;
 }
 .list-other-sites{
     list-style-type: none;
@@ -53,6 +62,33 @@ h2{
 .list-other-sites:hover{
     color:#30bae7;
     cursor:pointer;
+}
+.list-projects{
+    list-style-type: none;
+    display: inline-block;
+    width: 440px;
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /*outline: 1px dashed black;*/
+}
+.list-projects div{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.list-projects img{
+    max-width: 100%;
+}
+.list-testimonials{
+    list-style-type: none;
+    display: inline-block;
+    width: 340px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /*outline: 1px dashed black;*/
+}
+.list-testimonials img{
+    max-width: 20%;
 }
 .list-services{
     list-style-type: none;
@@ -82,6 +118,10 @@ h2{
 .list-skills > img {
     margin-bottom: 28px;
 }
+.list-skills > div {
+    font-size: 1.5em;
+    font-weight: bold;
+}
 .list-team{
     list-style-type: none;
     display: inline-block;
@@ -110,6 +150,7 @@ h2{
     list-style-type: none;
     /*display: inline;*/
     display: inline-block;
+    margin-top: 22px;
     /*border-radius: 100%;*/
 }
 .list-team-contact .contact-icon{
@@ -177,10 +218,6 @@ h2{
 }
 #cuda-welcome .link-box{
     margin-top: 54px;
-    padding-top: 1.13em;
-    padding-bottom: 1.13em;
-    font-size: 1.13em;
-    width: 290px;
     background-color: #eb7d4b;
     color: #ffffff;
 }
@@ -208,6 +245,15 @@ h2{
     background-color: #ffdd99;
     color: #393939;
 }
+#cuda-portfolio .link-box{
+    margin-top: 40px;
+    background-color: #17c2a4;
+    color: #ffffff;
+}
+#cuda-portfolio .link-box:hover{
+    background-color: #138c77;
+    cursor: pointer;
+}
 
 #cuda-testimonials{
     background-color: #d74680;
@@ -218,6 +264,21 @@ h2{
     background-color: #3c5499;
     color: #ffffff;
 }
+#cuda-in-touch .link-box{
+    background-color: #30bae7;
+    color: #ffffff;
+}
+#cuda-in-touch .link-box:hover{
+    background-color: #196179;
+    /*outline: 1px dashed #299ec5;*/
+    cursor: pointer;
+}
+#cuda-in-touch .link-box:active{
+    
+    cursor: pointer;
+}
+
+
 #cuda-other-sites{
     padding-top: 48px;
     padding-bottom: 48px;
