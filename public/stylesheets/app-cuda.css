@@ -31,10 +31,10 @@ ul{
 .cuda-page {
     padding-top: 118px;
     padding-bottom: 108px;
+    /*outline: 1px dotted black;*/
 }
 .cuda-page h2 {
     margin-top: 0px;
-    margin-bottom: 60px;
 }
 .link-box{
     text-align: center;
@@ -79,21 +79,12 @@ ul{
 .list-projects img{
     max-width: 100%;
 }
-.list-testimonials{
-    list-style-type: none;
-    display: inline-block;
-    width: 340px;
-    margin-left: 10px;
-    margin-right: 10px;
-    /*outline: 1px dashed black;*/
-}
-.list-testimonials img{
-    max-width: 20%;
-}
+
 .list-services{
     list-style-type: none;
     display: inline-block;
     width: 260px;
+    margin-top: 60px;
     margin-right: 10px;
     /*outline: 1px dashed black;*/
 }
@@ -112,6 +103,7 @@ ul{
     list-style-type: none;
     display: inline-block;
     width: 260px;
+    margin-top: 60px;
     margin-right: 10px;
     /*outline: 1px dashed black;*/
 }
@@ -126,14 +118,22 @@ ul{
     list-style-type: none;
     display: inline-block;
     width: 260px;
-    margin-right: 10px;
+    margin-top: 60px;
+    margin-right: 5px;
+    margin-left: 5px;
     /*outline: 1px dashed black;*/
-    padding: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .list-team div{
     font-size: 100%;
 }
+.list-team img{
+    max-width: 80%;
+    border-radius: 100%;
+}
 .list-team .list-team-name{
+    margin-top: 20px;
     font-size: 1.5em;
 }
 .list-team .list-team-title{
@@ -167,6 +167,43 @@ ul{
     background-color: #758189;
     cursor: pointer;
 }
+.list-testimonials{
+    list-style-type: none;
+    display: inline-block;
+    float: left;
+    text-align: left;
+    width: 550px;
+    height: 120px;
+    margin-top: 60px;
+    /*margin-left: 10px;*/
+    /*margin-right: 20px;*/
+    padding-left: 10px;
+    padding-right: 10px;
+    /*outline: 1px dashed black;*/
+}
+.list-testimonials img{
+    /*display: block;*/
+    float: left;
+    margin-right: 20px;
+    max-width: 20%;
+    border-radius: 100%;
+}
+.message-substance{
+    margin-top: 10px;
+}
+.message-substance:nth-child(1){
+    margin-top: 60px;
+    margin-right: 7px;
+    width: 49%;
+}
+.message-substance:nth-child(2){
+    width: 49%;
+}
+.message-substance:nth-child(3){
+    max-width: 100%;
+    height: 10em;
+}
+
 .nav-list:hover{
     background-color:#4d2f5c;
     cursor:pointer;
@@ -198,17 +235,25 @@ ul{
     background-color:#998356;
     cursor:pointer;
 }
+.quote-name{
+    display: block;
+}
+.quote-text{
+    display: block;
+    max-width: 360px;
+}
+.quote-title{
+    display: block;
+}
 .title-line{
     margin-top: 22px;
     margin-bottom: 22px;
-}
-.team-mug{
-    margin-bottom: 40px;
 }
 
 .view-panel{
     text-align: center;
     max-width: 1100px;
+    /*outline: 1px solid black;*/
 }
 
 #cuda-welcome{
@@ -265,6 +310,7 @@ ul{
     color: #ffffff;
 }
 #cuda-in-touch .link-box{
+    margin-top: 40px;
     background-color: #30bae7;
     color: #ffffff;
 }
@@ -273,11 +319,15 @@ ul{
     /*outline: 1px dashed #299ec5;*/
     cursor: pointer;
 }
-#cuda-in-touch .link-box:active{
-    
-    cursor: pointer;
-}
 
+#cuda-in-touch .message-substance{
+    padding: 1em;
+    background-color: #273a71;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 0px;
+    font-weight: bold;
+}
 
 #cuda-other-sites{
     padding-top: 48px;
