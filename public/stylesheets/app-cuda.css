@@ -7,6 +7,7 @@
     /*box-sizing: border-box;*/
     margin: 0 auto;
 }
+
 h1{
     font-weight: bold;
     font-size: 250%;
@@ -20,8 +21,16 @@ h2{
     text-transform: uppercase;
 }
 
-.clearfix{
-    overflow: auto;
+/*.clearfix{*/
+/*    overflow: auto;*/
+/*}*/
+.cuda-page {
+    padding-top: 118px;
+    padding-bottom: 108px;
+}
+.cuda-page h2 {
+    margin-top: 0px;
+    margin-bottom: 60px;
 }
 .link-box{
     margin: 0 auto;
@@ -34,6 +43,16 @@ h2{
     border-radius: 5px;
     padding: 10px;
 }
+.list-other-sites{
+    list-style-type: none;
+    display: inline-block;
+    width: 134px;
+    /*outline: 1px dashed black;*/
+}
+.list-other-sites:hover{
+    color:#30bae7;
+    cursor:pointer;
+}
 .list-services{
     list-style-type: none;
     display: inline-block;
@@ -43,6 +62,16 @@ h2{
 }
 .list-services div{
     font-size: 100%;
+}
+.list-skills{
+    list-style-type: none;
+    display: inline-block;
+    width: 260px;
+    margin-right: 10px;
+    /*outline: 1px dashed black;*/
+}
+.list-skills > img {
+    margin-bottom: 28px;
 }
 .list-team{
     list-style-type: none;
@@ -86,6 +115,13 @@ h2{
     background-color:#998356;
     cursor:pointer;
 }
+.title-line{
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+.team-mug{
+    margin-bottom: 40px;
+}
 
 .view-panel{
     text-align: center;
@@ -93,6 +129,7 @@ h2{
 }
 
 #cuda-welcome{
+    padding-top: 58px;
     background-color: #87509C;
     color: #ffffff;
 }
@@ -124,5 +161,11 @@ h2{
 
 #cuda-in-touch{
     background-color: #3c5499;
+    color: #ffffff;
+}
+#cuda-other-sites{
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-color: #344b8e;
     color: #ffffff;
 }
