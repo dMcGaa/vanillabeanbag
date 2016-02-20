@@ -1,7 +1,7 @@
 * {
     /*box-sizing: border-box;*/
     margin: 0 auto;
-    font-family: Roboto;
+    font-family: Roboto, Arial, sans-serif;
 }
 ul{
     padding: 0px;
@@ -25,14 +25,39 @@ ul{
 
 .footer-links{
     display: inline-block;
+    margin-left: 1em;
+    margin-right: 1em;
     color: #848484;
+    text-decoration: none;
 }
-
+.footer-links:hover{
+    color: #62d995;
+}
+.header-link{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 150%;
+    width: 2.6em;
+    height: 2.6em;
+    line-height: 2.6em;
+    border-radius: 100%;
+    background-color: rgba(0,0,0,0.2);
+    color: #ffffff;
+}
+.header-link:hover{
+    background-color: rgba(98,217,149,1);
+}
 .section{
     padding-top: 54px;
     padding-bottom: 54px;
     max-width: 1600px;
     width: 80%;
+}
+.testimonial-review{
+    font-style: italic;
+    width: 66%;
+    max-width: 800px;
 }
 
 .uppercase {
