@@ -21,8 +21,12 @@ app.get('/sage', function(request, response) {
   response.render('pages/sage')
 });
 
-app.get('/site-cuda', function(request, response) {
+app.get('/cuda', function(request, response) {
   response.render('pages/site-cuda')
+});
+
+app.get('/notify', function(request, response) {
+  response.render('pages/site-notify')
 });
 
 app.listen(app.get('port'), function() {
