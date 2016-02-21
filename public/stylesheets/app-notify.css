@@ -114,17 +114,7 @@ ul{
 }
 #notify-header{
     color: #ffffff;
-}
-
-#notify-header img{
-    position: relative;
-    width: 100%;
-}
-
-#notify-header .image-inner{
-    position: absolute;
-    top: 0;
-    left: 0;
+    height: 545px;
 }
 
 #notify-updates{
