@@ -113,8 +113,12 @@ ul{
     text-align: center;
 }
 #notify-header{
+    box-sizing: border-box;
     color: #ffffff;
     height: 545px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 #notify-updates{
