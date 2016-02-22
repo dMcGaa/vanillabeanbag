@@ -181,13 +181,13 @@ ul{
     text-align: center;
 }
 #notify-testimonials .section div:nth-child(1){
-    font-size: 1em;
+    font-size: 0.9em;
     font-style: italic;
     color: #848484;
 }
 #notify-testimonials .section div:nth-child(2){
     margin-top: 1em;
-    font-size: 1em;
+    font-size: 1.0em;
     font-weight: bold;
     color: #000;
 }
