@@ -99,6 +99,10 @@ ul{
     /*margin-top: 1em;*/
     font-weight: bold;
 }
+.section-text{
+    margin-top: 1em;
+    font-size: 0.8em;
+}
 .testimonial-pics img{
     margin-top: 1em;
     display: inline-block;
@@ -110,6 +114,9 @@ ul{
 }
 .updates-list-item {
     width:90%;
+}
+.updates-list-item img{
+    width:100%;
 }
 .updates-email{
     margin-top: 1em;
@@ -158,15 +165,12 @@ ul{
 #notify-updates{
     background-color: #e3e3e3;
 }
-#notify-updates .section div:nth-child(2){
-    margin-top: 1em;
-    font-size: 0.8em;
+#notify-updates{
+    padding-bottom: 54px;
+}
+#notify-updates .section-text{
     color: #848484;
 }
-#notify-updates img{
-    margin-bottom: 54px;
-}
-
 #notify-features{
     background-color: #ffffff;
     text-align: center;
