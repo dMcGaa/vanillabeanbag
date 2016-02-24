@@ -28,7 +28,7 @@ app.get('/cuda', function(request, response) {
 app.get('/notify', function(request, response) {
   response.render('pages/site-notify')
 });
-app.get('/green-des', function(request, response) {
+app.get('/green-design', function(request, response) {
   response.render('pages/site-green-design')
 });
 

@@ -18,6 +18,9 @@ header{
 .clearfix{
     overflow: auto;
 }
+.client-testimonial img{
+    float: left;
+}
 a.link-section{
     text-decoration: none;
     color: #FFFFFF;
@@ -46,6 +49,7 @@ a.link-section{
     color: #FFFFFF;
     background-color: #51b105;
     text-transform: uppercase;
+    text-decoration: none;
     font-weight: bold;
     border-radius: 4px;
     cursor: pointer;
@@ -56,13 +60,46 @@ a.link-section{
 .link-section:not(:last-child){
     padding-right:10px;
 }
+.main-title{
+    color: #ffffff;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.main-subtitle{
+    text-align: left;
+    color: #ffffff;
+    font-size: 1.5em;
+    /*width: 200px;*/
+}
 .section{
     overflow: auto;
     padding-top: 50px;
     padding-bottom: 50px;
+    /*text-align: center;*/
+}
+.section#client-fdbk{
+    text-align:center;
+}
+.section#contact-info{
+    text-align:center;
 }
 .section-content{
     width:75%;
+}
+.section-grn-header{
+    display: inline-block;
+    /*display: block;*/
+    /*margin: auto;*/
+    /*width: auto;*/
+    padding: 6px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #51b105;
+    border-radius: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
 }
 .serv-col{
     text-align: center;
@@ -74,9 +111,9 @@ a.link-section{
     width: 100%;
     height: auto;
 }
-.serv-col div:nth-child(2){
+.serv-col div:first-ild(2){
     margin-top: 1em;
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: bold;
 }
 .serv-col div:nth-child(3){
@@ -106,4 +143,12 @@ a.link-section{
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 0px -80px;
+}
+
+#client-fdbk .section-content div:nth-child(2){
+    margin-top: 30px;
+}
+
+#contact-info .section-content div:not(:first-child){
+    margin-top: 30px;
 }
