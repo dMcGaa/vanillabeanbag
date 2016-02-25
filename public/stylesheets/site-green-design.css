@@ -26,6 +26,20 @@ a.link-section{
     color: #FFFFFF;
     text-transform: capitalize;
 }
+.footer-link-icon{
+    display:inline-block;
+    vertical-align: middle;
+    height:1.4em;
+    line-height: 1.4em;
+    width:1.4em;
+    font-size: 1.0em;
+    background-color: #AAA;
+    color: #FFF;
+    border-radius: 100%;
+}
+.footer-link-icon:hover{
+    background-color: #CCC;
+}
 .header-content{
     width: 75%;
     color: #51b105;
