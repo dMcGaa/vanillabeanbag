@@ -49,9 +49,23 @@ a.link-section{
     text-align: right;
     display: inline-block;
 }
+.header-link-single{
+    border-radius: 4px;
+    text-decoration: none;
+    color: #000;
+    text-transform: capitalize;
+}
+.header-link-single:hover{
+    background-color: rgba(0,0,0,.2);
+}
 .header-logo{
     text-align: left;
     display: inline-block;
+}
+.header-arrow-right{
+    color: #faa61a;
+    padding-left: 10px;
+    padding-right: 4px;
 }
 .header-title{
     text-transform: capitalize;
@@ -83,10 +97,10 @@ a.link-section{
     border-radius: 4px;
     cursor: pointer;
 }
-.link-section:not(:first-child){
+.footer-links .link-section:not(:first-child){
     padding-left:1px;
 }
-.link-section:not(:last-child){
+.footer-links .link-section:not(:last-child){
     padding-right:10px;
 }
 .logo-icon{
