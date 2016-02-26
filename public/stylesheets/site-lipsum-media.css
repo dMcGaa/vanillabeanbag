@@ -42,14 +42,21 @@ a.link-section{
     color: #000;
 }
 .header-content *{ 
-    display: inline-block;
+    /*display: inline-block;*/
 }
 .header-links{
-    float: right;
+    /*float: right;*/
+    text-align: right;
+    display: inline-block;
+}
+.header-logo{
+    text-align: left;
+    display: inline-block;
 }
 .header-title{
     text-transform: capitalize;
     font-size: 1.5em;
+    display: inline-block;
 }
 .link-arrow-right{
     background-color: #faa61a;
