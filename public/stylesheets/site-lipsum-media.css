@@ -8,6 +8,7 @@ body{
 }
 ul{
     padding: 0px;
+    list-style-type: none;
 }
 header{
     padding-top: 10px;
@@ -53,7 +54,7 @@ a.link-section{
     border-radius: 4px;
     text-decoration: none;
     color: #000;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 .header-link-single:hover{
     background-color: rgba(0,0,0,.2);
@@ -69,8 +70,19 @@ a.link-section{
 }
 .header-title{
     text-transform: capitalize;
-    font-size: 1.5em;
+    font-size: 2em;
     display: inline-block;
+}
+.icon-container{
+    display: inline-block;
+    font-size: 1em;
+    width: 1.3em;
+    height: 1.3em;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 1em;
+    /*background-color: #333;*/
+    /*border: 1px solid black;*/
 }
 .link-arrow-right{
     background-color: #faa61a;
@@ -129,7 +141,10 @@ a.link-section{
 .section-content{
     width:75%;
 }
-
+.services-link{
+    color: #000;
+    text-decoration: none;
+}
 .col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12{float:left;}
 .col-sm-12{width:100%;}
 .col-sm-11{width:91.66666667%;}
@@ -153,4 +168,9 @@ a.link-section{
 }
 #section-1 .section-content{
     background-color: #faa61a;
+}
+
+#services-list > li{
+    margin-top: 15px;
+    /*border: 1px solid black;*/
 }
