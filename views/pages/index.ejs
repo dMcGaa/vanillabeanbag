@@ -1,8 +1,10 @@
-<!DOCTYPE html><lang="en" ng-app>
+<!DOCTYPE html><lang="en" ng-app="indexApp">
 
 <head>
     <% include partials/head.ejs %>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+        <!--<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>-->
+        <!--http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js-->
 </head>
 
 <title>vanillaBeanBag | Home</title>
@@ -12,23 +14,29 @@
         <% include partials/header.ejs %>
     </header>
 
-    <div class="container">
+    <div ng-controller="indexCtrlr as index" class="container">
         <div class="jumbotron">
             <h1 style="font-size: 210%;">Front End Practice</h1>
             <h4>Made using NodeJS, Express, Angular, EJS</h4>
-            <a href='/drinks'>Drinks</a><br>
-            <a href='/sage'>Sage</a><br>
-            <a href='/cuda'>Cuda</a><br>
-            <a href='/notify'>Notify</a><br>
-            <a href='/green-design'>Green Design</a><br>
-            <a href='/lipsum-media'>Lipsum Media</a><br>
+            <ul>
+                <li ng-repeat="x in index.pages">
+                    <a href={{x.href}}>{{x.name}}</a><br>
+                </li>
+            </ul>
+            <!--<a href='/drinks'>Drinks</a><br>-->
+            <!--<a href='/sage'>Sage</a><br>-->
+            <!--<a href='/cuda'>Cuda</a><br>-->
+            <!--<a href='/notify'>Notify</a><br>-->
+            <!--<a href='/green-design'>Green Design</a><br>-->
+            <!--<a href='/lipsum-media'>Lipsum Media</a><br>-->
         </div>
     </div>
 
     <footer>
         <% include partials/footer.ejs %>
     </footer>
-
+    <script src="/js/index-app.js"></script>
+    <script src="/js/index-ctrlr.js"></script>
 </body>
 
 </html>
