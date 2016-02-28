@@ -24,6 +24,10 @@ a.link-section{
     color: #000;
     text-transform: capitalize;
 }
+.col-padding{
+    padding-left: 10px;
+    padding-right: 10px;
+}
 .footer-content{
     width: 75%;
     color: #000;
@@ -147,8 +151,11 @@ a.link-section{
     text-align: center;
     font-size: 2em;
 }
+.section-text{
+    color: #636363;
+}
 .section-title{
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-weight: bold;
 }
 .section-title-emph{
@@ -199,6 +206,18 @@ a.link-section{
 }
 #section-1 .section-content{
     /*background-color: #faa61a;*/
+}
+#section-2 .section-title{
+    text-align: center;
+}
+#section-2 .section-text{
+    text-align: center;
+}
+#section-3 .section-text{
+    font-size: 0.8em;
+}
+#section-4 .section-text{
+    font-size: 0.8em;
 }
 
 #services-list > li{
