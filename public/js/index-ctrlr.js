@@ -20,5 +20,8 @@
     }, {
         name: 'Lipsum Media',
         href: "/lipsum-media"
+    }, {
+        name: 'Graff Pink',
+        href: "/graff-pink"
     }];
 })()

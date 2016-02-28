@@ -34,7 +34,9 @@ app.get('/green-design', function(request, response) {
 app.get('/lipsum-media', function(request, response) {
   response.render('pages/site-lipsum-media')
 });
-
+app.get('/graff-pink', function(request, response) {
+  response.render('pages/site-graff-pink')
+});
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
 });
