@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0 auto;
-    font-family: "News Cycle", Arial, sans-serif;
+    font-family: "Sofia", Arial, sans-serif;
 }
 body{
     font-size: 1.2em;
@@ -51,10 +51,18 @@ a.link-section{
     display: inline-block;
 }
 .header-link-single{
+    margin-right: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1em;
     border-radius: 4px;
     text-decoration: none;
-    color: #000;
-    text-transform: uppercase;
+    color: #7c7c7c;
+    text-transform: capitalize;
+}
+.header-link-single.login{
+    background-color: #de6d6e;
+    color:#fff;
 }
 .header-link-single:hover{
     background-color: rgba(0,0,0,.2);
@@ -69,9 +77,13 @@ a.link-section{
     padding-right: 4px;
 }
 .header-title{
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
     font-size: 2em;
     display: inline-block;
+    padding-left: 3px;
+}
+.header-title span{
+    color: #7c7c7c;
 }
 .icon-container{
     display: inline-block;
@@ -131,6 +143,10 @@ a.link-section{
     text-transform: uppercase;
     text-align: center;
 }
+.section-sub-title{
+    text-align: center;
+    font-size: 2em;
+}
 .section-title{
     text-transform: uppercase;
     font-weight: bold;
@@ -152,6 +168,7 @@ a.link-section{
 .services-columns :not(:last-child){
     padding-right: 50px;
 }
+
 .col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12{float:left;}
 .col-sm-12{width:100%;}
 .col-sm-11{width:91.66666667%;}
@@ -168,16 +185,23 @@ a.link-section{
 
 
 #section-1{
-    /*background-image: url("/images/site-/background.png");*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: 100%;*/
+    background-image: url("/images/site-graff-pink/flower.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
     /*background-position: 0px -80px;*/
 }
+#section-1 .section-main-title{
+    margin-top: 150px;
+    color: #fff;
+}
+#section-1 .section-sub-title{
+    color: #fff;
+}
 #section-1 .section-content{
-    background-color: #faa61a;
+    /*background-color: #faa61a;*/
 }
 
 #services-list > li{
-    margin-top: 15px;
+    /*margin-top: 15px;*/
     /*border: 1px solid black;*/
 }
