@@ -37,6 +37,9 @@ app.get('/lipsum-media', function(request, response) {
 app.get('/graff-pink', function(request, response) {
   response.render('pages/site-graff-pink')
 });
+app.get('/awesome-hosting', function(request, response) {
+  response.render('pages/site-awesome-hosting')
+});
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
 });

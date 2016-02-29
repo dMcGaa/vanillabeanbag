@@ -23,5 +23,8 @@
     }, {
         name: 'Graff Pink',
         href: "/graff-pink"
+    }, {
+        name: 'Awesome Hosting',
+        href: "/awesome-hosting"
     }];
 })()
