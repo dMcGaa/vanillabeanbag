@@ -121,6 +121,9 @@ a.link-section{
 .header-title span{
     color: #7c7c7c;
 }
+.icon-color{
+    color: #fb6b45;
+}
 .footer-links .link-section:not(:first-child){
     padding-left:1px;
 }
@@ -151,35 +154,48 @@ a.link-section{
     color: #636363;
 }
 .section-title{
-    /*text-transform: uppercase;*/
-    font-weight: bold;
+    color: #859aa1;
+    text-transform: uppercase;
+    /*font-weight: bold;*/
 }
 .section-title-emph{
-    color: #faa61a;
+    color: #556b72;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
 }
 .section-content{
     width:75%;
+}
+.serv-title{
+    color:#556b72;
+    font-weight:bold;
+}
+.serv-desc{
+    font-size: 0.7em;
+    font-weight: normal;
+    color:#a0a9b6;
+    padding-right: 20px;
 }
 .services-link{
     color: #000;
     text-decoration: none;
 }
 .services-columns{
-    text-align: center;
+    /*text-align: center;*/
     /*border: 1px solid black;*/
 }
 .services-columns .icon-container{
     display: inline-block;
     font-size: 1em;
-    width: 7em;
-    height: 7em;
-    line-height: 9.5em;
-    text-align:center;
-    vertical-align: middle;
+    width: 4em;
+    /*height: 7em;*/
+    /*line-height: 9.5em;*/
+    /*vertical-align: middle;*/
     text-align: center;
-    background-color: #696b6a;
-    color: #fff;
-    border-radius: 100%;
+    /*background-color: #696b6a;*/
+    /*color: #fb6b45;*/
+    /*border-radius: 100%;*/
 }
 .services-columns .icon-container i{
     font-size: 3em;
@@ -190,24 +206,14 @@ a.link-section{
     font-size: 0.3em;
     text-transform: capitalize;
 }
-
-.services-columns .icon-container#serv-tickets{
-    background-color: #4eb9f4;
-}
-.services-columns .icon-container#serv-camera{
-    background-color: #6fc125;
-}
-.services-columns .icon-container#serv-beer{
-    background-color: #ff5649;
-}
-.services-columns .icon-container#serv-devices{
-    background-color: #e48f23;
-}
-.services-columns :not(:last-child){
-    padding-right: 50px;
-}
-.services-list{
+.services-columns{
     margin-top: 40px;
+}
+/*.services-columns :not(:last-child){*/
+/*    padding-right: 50px;*/
+/*}*/
+.services-list{
+    /*margin-top: 40px;*/
 }
 
 .col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12{float:left;}
