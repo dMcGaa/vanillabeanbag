@@ -40,6 +40,9 @@ app.get('/graff-pink', function(request, response) {
 app.get('/awesome-hosting', function(request, response) {
   response.render('pages/site-awesome-hosting')
 });
+app.get('/awesome-hosting/about-us', function(request, response) {
+  response.render('pages/awesome-hosting/about-us')
+});
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
 });

@@ -103,6 +103,9 @@ a.link-section{
 .header-link-single:hover{
     background-color: #52cbf8;
 }
+.header-link-single.current{
+    background-color: #52cbf8;
+}
 .header-logo{
     text-align: left;
     /*display: inline-block;*/
