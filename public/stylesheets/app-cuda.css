@@ -35,6 +35,7 @@ ul{
 }
 .cuda-page h2 {
     margin-top: 0px;
+    max-width: 75%
 }
 .link-box{
     text-align: center;
@@ -48,6 +49,7 @@ ul{
     font-weight: bold;
     background-color: #add4cd;
     color: rgb(53, 45, 47);
+    max-width: 75%;
 }
 .link-box:hover{
     background-color: #0a5d4e;
@@ -79,6 +81,11 @@ ul{
 
 .list-services{
     list-style-type: none;
+    margin-top: 40px;
+}
+
+.service-img{
+    height: 100px;
 }
 .list-services-title{
     margin-top: 54px;
@@ -103,20 +110,20 @@ ul{
 }
 .list-team{
     list-style-type: none;
-    display: inline-block;
+    /*display: inline-block;*/
     /*width: 260px;*/
     margin-top: 60px;
-    margin-right: 5px;
-    margin-left: 5px;
+    /*margin-right: 5px;*/
+    /*margin-left: 5px;*/
     /*outline: 1px dashed black;*/
     padding-left: 10px;
     padding-right: 10px;
 }
 .list-team div{
-    font-size: 100%;
+    max-width: 75%;
 }
 .list-team img{
-    max-width: 80%;
+    max-width: 80px;
     border-radius: 100%;
 }
 .list-team .list-team-name{
@@ -196,7 +203,10 @@ ul{
     cursor:pointer;
 }
 .quote-name{
-    display: block;
+    font-weight: bold;
+}
+.quote-pos{
+    font-style: italic;
 }
 .quote-text{
     display: block;
