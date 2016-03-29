@@ -2,7 +2,18 @@
     font-family:'titillium-reg';
     src: url("/fonts/Titillium-Regular.otf");
 }
-
+@media (max-width: 799px) {
+    .cuda-page {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+@media (min-width: 800px){
+   .cuda-page {
+        padding-top: 80px;
+        padding-bottom: 60px;
+    } 
+}
 * {
     /*box-sizing: border-box;*/
     margin: 0 auto;
@@ -28,11 +39,11 @@ ul{
 .clearfix{
     overflow: auto;
 }
-.cuda-page {
-    padding-top: 118px;
-    padding-bottom: 108px;
+/*.cuda-page {*/
+/*    padding-top: 120px;*/
+/*    padding-bottom: 100px;*/
     /*outline: 1px dotted black;*/
-}
+/*}*/
 .cuda-page h2 {
     margin-top: 0px;
     max-width: 75%
@@ -170,7 +181,7 @@ ul{
     max-height: 100px;
 }
 .list-testimonials img{
-    width: 100%;
+    max-width: 100%;
     border-radius: 100%;
 }
 .nav-list:hover{
