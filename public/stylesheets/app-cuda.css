@@ -166,6 +166,9 @@ ul{
     margin-top: 60px;
     text-align: left;
 }
+.list-testimonials-mug{
+    max-height: 100px;
+}
 .list-testimonials img{
     width: 100%;
     border-radius: 100%;
